@@ -86,6 +86,32 @@ h2{
 }
 
 .quote-author{
-    width: 55%;  
-    align-self: flex-end;
+    width: 80%;
+    text-align: right;
+
+}
+
+.action{
+    padding: 200px;
+    display: flex;
+    justify-content: center;
+}
+.call{
+    background-color: #3882F6;
+    color: white;
+    padding: 25px 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.action-test{
+    display: flex;
+    flex-direction: column;
+}
+
+.action-btn{
+    border: 1px solid white;
+    margin: 20px;
 }
