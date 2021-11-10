@@ -12,7 +12,6 @@ a{
     margin-right: 18px;
 }
 
-
 #logo{
     width: 200px;
 }
@@ -21,6 +20,7 @@ a{
     background-color: #1F2937;
     display: flex;
     padding: 100px 350px;
+    color: white;
 }
 #money{
     width: 600px;
@@ -29,6 +29,63 @@ a{
 .main{
     font-size: 48px;
     font-weight: bolder;
-    color: #F9FAF8;
-    
+    color: #F9FAF8;   
+    margin: 0;
+}
+
+button{
+    background-color: #3882F6;
+    height: 35px;
+    width: 130px;
+    color: white;
+    border: none;
+    font-size: 18px;
+    font-weight: bolder;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+.info{
+    display: flex;
+}
+
+h2{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.info-child{
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    margin: 0 30px;
+    text-align: center;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 100px;
+    justify-content: center;
+}
+
+.quote-text{
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    width: 55%;
+    align-self: center;
+}
+
+.quote-author{
+    width: 55%;  
+    align-self: flex-end;
 }
